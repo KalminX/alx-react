@@ -3,20 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "webpack": "^5.96.1",
-    "webpack-cli": "^5.1.4"
-  },
   "devDependencies": {
     "jquery": "^3.7.1",
     "lodash": "^4.17.21"
+  },
+  "dependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   },
   "description": ""
 }
